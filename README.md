@@ -7,3 +7,8 @@ Jupyter Notebooks and Python scripts for processing, analysing and classifying E
                                           *Bandpass filter, rereference and apply baseline correction
                                           *Epoch the data, view trials and remove bad trials
                                           *Perform Independent Component Analysis for artefact removal
+                                          
+- classification.py: *Class for training CNNs using a nested cross-validation method. Train on the inner_fold to obtain
+optimized hyperparameters. Train outer_fold to obtain classification performance.
+
+- results.py: 

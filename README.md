@@ -14,3 +14,5 @@ optimized hyperparameters. Train outer_fold to obtain classification performance
 - results.py: *Class for computing and stroing results for individual subjects. Includes accuracy, f1-score, etc. *inner- and outer-fold scores are saved and predicted labels stored for future use.
 
 - metrics.py: *Contains a function for computing cross entropy from expected and predicted labels. More metrics to follow.
+
+- vizualizations.py: *plotting functions for classification results including confusion matrix, ROC, cross-entropy boxplots.
